@@ -54,7 +54,11 @@ PRETRAINED_VOCAB_ARCHIVE_MAP = {
     'scibert-basevocab-uncased': "https://s3-us-west-2.amazonaws.com/ai2-s2-research/scibert/pytorch_models/scibert_basevocab_uncased.tar",                   
     'scibert-basevocab-cased': "https://s3-us-west-2.amazonaws.com/ai2-s2-research/scibert/pytorch_models/scibert_basevocab_cased.tar",
     # BERT on Stilts models 
-    'bert-stilts-mnli-large-uncased': "https://raw.githubusercontent.com/zphang/bert_on_stilts/master/cache/bert_metadata/uncased_L-24_H-1024_A-16/vocab.txt"
+    'bert-stilts-mnli-large-uncased': "https://raw.githubusercontent.com/zphang/bert_on_stilts/master/cache/bert_metadata/uncased_L-24_H-1024_A-16/vocab.txt",
+    # Turkish BERT Models
+    'convbert-base-turkish-mc4-cased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased/resolve/main/vocab.txt",
+    'bert-base-turkish-128k-cased': 'https://huggingface.co/dbmdz/bert-base-turkish-128k-cased/resolve/main/vocab.txt',
+    'bert-base-turkish-128k-uncased': 'https://huggingface.co/dbmdz/bert-base-turkish-128k-uncased/resolve/main/vocab.txt',
 }
 
 PRETRAINED_VOCAB_POSITIONAL_EMBEDDINGS_SIZE_MAP = {
@@ -79,9 +83,13 @@ PRETRAINED_VOCAB_POSITIONAL_EMBEDDINGS_SIZE_MAP = {
     'biobert-v1.0-pmc-base-cased': 512,
     # SciBERT
     'scibert-scivocab-uncased': 512,
-    'scibert-scivocab-cased': 512,              
+    'scibert-scivocab-cased': 512,
     'scibert-basevocab-uncased': 512,
-    'scibert-basevocab-uncased': 512,    
+    'scibert-basevocab-uncased': 512,
+    # Turkish BERT Models
+    'convbert-base-turkish-mc4-cased': 512,
+    'bert-base-turkish-128k-cased': 512,
+    'bert-base-turkish-128k-uncased': 512,
 }
     
 VOCAB_NAME = 'vocab.txt'
