@@ -21,6 +21,13 @@ cd bert-sklearn
 pip install .
 ```
 
+## Newly Added Turkish BERT Models
+
+* dbmdz/convbert-base-turkish-mc4-cased
+* dbmdz/convbert-base-turkish-mc4-uncased
+* dbmdz/bert-base-turkish-128k-cased
+* dbmdz/bert-base-turkish-128k-uncased
+
 ## basic operation
 
 **`model.fit(X,y)`**  i.e finetune **`BERT`**

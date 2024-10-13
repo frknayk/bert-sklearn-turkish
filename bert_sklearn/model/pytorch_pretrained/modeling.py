@@ -62,6 +62,7 @@ PRETRAINED_MODEL_ARCHIVE_MAP = {
     'scibert-basevocab-uncased': "https://s3-us-west-2.amazonaws.com/ai2-s2-research/scibert/pytorch_models/scibert_basevocab_uncased.tar",
     'scibert-basevocab-cased': "https://s3-us-west-2.amazonaws.com/ai2-s2-research/scibert/pytorch_models/scibert_basevocab_cased.tar",
     # Turkish BERT Models
+    'convbert-base-turkish-mc4-uncased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-uncased/resolve/main/pytorch_model.bin",
     'convbert-base-turkish-mc4-cased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased/resolve/main/pytorch_model.bin",
     'bert-base-turkish-128k-cased': "https://huggingface.co/dbmdz/bert-base-turkish-128k-cased/resolve/main/pytorch_model.bin",
     'bert-base-turkish-128k-uncased': "https://huggingface.co/dbmdz/bert-base-turkish-128k-uncased/resolve/main/pytorch_model.bin",
@@ -83,6 +84,7 @@ PRETRAINED_CONFIG_ARCHIVE_MAP = {
     'bert-large-cased-whole-word-masking-finetuned-squad': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-cased-whole-word-masking-finetuned-squad-config.json",
     'bert-base-cased-finetuned-mrpc': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-finetuned-mrpc-config.json",
     # Turkish BERT Models
+    'convbert-base-turkish-mc4-uncased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-uncased/resolve/main/config.json",
     'convbert-base-turkish-mc4-cased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased/resolve/main/config.json",
     'bert-base-turkish-128k-cased': 'https://huggingface.co/dbmdz/bert-base-turkish-128k-cased/resolve/main/config.json',
     'bert-base-turkish-128k-uncased': 'https://huggingface.co/dbmdz/bert-base-turkish-128k-uncased/resolve/main/config.json',

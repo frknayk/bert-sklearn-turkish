@@ -57,6 +57,7 @@ PRETRAINED_VOCAB_ARCHIVE_MAP = {
     'bert-stilts-mnli-large-uncased': "https://raw.githubusercontent.com/zphang/bert_on_stilts/master/cache/bert_metadata/uncased_L-24_H-1024_A-16/vocab.txt",
     # Turkish BERT Models
     'convbert-base-turkish-mc4-cased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased/resolve/main/vocab.txt",
+    'convbert-base-turkish-mc4-uncased': "https://huggingface.co/dbmdz/convbert-base-turkish-mc4-uncased/resolve/main/vocab.txt",
     'bert-base-turkish-128k-cased': 'https://huggingface.co/dbmdz/bert-base-turkish-128k-cased/resolve/main/vocab.txt',
     'bert-base-turkish-128k-uncased': 'https://huggingface.co/dbmdz/bert-base-turkish-128k-uncased/resolve/main/vocab.txt',
 }
